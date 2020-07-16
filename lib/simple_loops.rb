@@ -9,3 +9,11 @@ def loop_message_n_times(string,n)
     puts string
   end
 end
+
+def output_array(array)
+  counter = 0
+  while array[counter] do
+    puts array[counter]
+    counter++
+  end
+end
